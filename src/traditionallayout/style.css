@@ -1,0 +1,13 @@
+[data-aos] {
+  pointer-events: none !important;
+}
+.aos-animate {
+  pointer-events: auto !important;
+}
+/* .aos-init[data-aos][data-aos].aos-animate {
+  transform: unset !important;
+} */
+
+.aos-init[data-aos][data-aos].aos-animate {
+    transform: unset;
+}
